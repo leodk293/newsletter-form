@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link href="style.css" rel="stylesheet">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  
+  <div class="global-container">
+
+    <div class="container">
+      <div class="container-text">
+      <h1>Stay udapted!</h1>
+      <p>Join 60,000+ products managers receiving monthly udaptes on:</p>
+      <div class="opportunities">
+        <div class="row">
+          <img src="assets/images/icon-list.svg" alt="">
+          <p>Product discovery and building what matters</p>
+        </div>
+        <div class="row">
+          <img src="assets/images/icon-list.svg" alt="">
+          <p>Measuring to ensure udaptes are a success</p>
+        </div>
+        <div class="row">
+          <img src="assets/images/icon-list.svg" alt="">
+          <p>And much more</p>
+        </div>
+      </div>
+      <div class="msg">
+        <p>Email address</p>
+        <p class="error-msg"></p>
+      </div>
+      <input type="email" placeholder="email@company.com" required>
+      <button type="submit">Subscribe to monthly newsletter</button>
+    </div>
+    <img src="assets/images/illustration-sign-up-desktop.svg" alt="">
+    </div>
+    <img class="loader" src="https://i.gifer.com/ZKZg.gif" alt="">
+
+    <div class="success">
+      <img src="assets/images/icon-list.svg" alt="">
+      <h1>Thanks for<br>subscribing!</h1>
+      <p>A confirmation has been sent to<br> <span>ash@loremcompany.com</span>.
+         Please open it and click<br> the button inside to confirm your subscription.
+      </p>
+
+      <button>Dismiss message</button>
+    </div>
+
+    <div class="mobile-form">
+      <div class="test">
+        <img src="assets/images/illustration-sign-up-mobile.svg" alt="">
+        <h1>Stay udapted!</h1>
+        <div class="opportunities">
+          <div class="row">
+            <img src="assets/images/icon-list.svg" alt="">
+            <p>Product discovery and building what matters</p>
+          </div>
+          <div class="row">
+            <img src="assets/images/icon-list.svg" alt="">
+            <p>Measuring to ensure udaptes are a success</p>
+          </div>
+          <div class="row">
+            <img src="assets/images/icon-list.svg" alt="">
+            <p>And much more</p>
+          </div> 
+        </div>
+        <div class="msg">
+          <p class="advice">Email address</p>
+          <p class="error-msg">Valid email<br> required</p>
+        </div>
+        <input type="email" placeholder="email@company.com">
+        <button type="submit">Subscribe to monthly newsletter</button>
+      </div>
+
+      <div class="succed">
+        <img src="assets/images/icon-list.svg" alt="">
+        <h1>Thanks for<br>subscribing!</h1>
+        <p>
+        A confirmation has been sent to<br> <span>ash@loremcompany.com</span>.
+        Please open it and<br> click the button inside to confirm your<br> subscription.
+        </p>
+        <button>Dismiss message</button>
+    </div>
+  </div>
+
+
+</body>
+</html>
